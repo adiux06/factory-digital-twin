@@ -1,0 +1,9 @@
+scenario,policy,num_robots,num_tasks,ticks_executed,tasks_completed,tasks_failed,completion_rate_pct,total_distance,total_waiting_time,throughput_per_100_ticks,avg_delivery_time,replans_count,conflicts_prevented,actual_collisions
+Standard 3-AGV Facility,FIFO,3,6,200,0,0,0.0,51,3,0.0,0.0,0,3,0
+Standard 3-AGV Facility,NEAREST_ROBOT,3,6,200,1,0,16.7,85,3,0.5,41.0,0,3,0
+"Congested Fleet (4-AGVs, 8 Tasks)",FIFO,4,8,220,0,0,0.0,54,4,0.0,0.0,0,4,0
+"Congested Fleet (4-AGVs, 8 Tasks)",NEAREST_ROBOT,4,8,220,2,0,25.0,138,4,0.91,38.0,0,4,0
+"High Load Demand (4-AGVs, 12 Tasks)",FIFO,4,12,260,0,0,0.0,70,4,0.0,0.0,0,4,0
+"High Load Demand (4-AGVs, 12 Tasks)",NEAREST_ROBOT,4,12,260,0,0,0.0,70,4,0.0,0.0,0,4,0
+"Constrained Fleet (2-AGVs, 6 Tasks)",FIFO,2,6,220,1,0,16.7,63,2,0.45,29.0,0,2,0
+"Constrained Fleet (2-AGVs, 6 Tasks)",NEAREST_ROBOT,2,6,220,0,0,0.0,29,2,0.0,0.0,0,2,0

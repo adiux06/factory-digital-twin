@@ -1,0 +1,34 @@
+# secrets
+.env
+*.env
+!.env.example
+
+# python
+.venv/
+env/
+venv/
+__pycache__/
+*.pyc
+*.py[cod]
+.pytest_cache/
+
+# local data
+*.db
+*.sqlite3
+storage/
+backend/storage/
+temp_inspect/
+
+# node & frontend
+node_modules/
+dist/
+frontend/dist/
+
+# nested repositories
+Factory Digital Twin/
+
+# misc
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

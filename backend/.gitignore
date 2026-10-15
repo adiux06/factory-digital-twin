@@ -1,0 +1,25 @@
+# secrets
+.env
+*.env
+!.env.example
+
+# python
+.venv/
+env/
+venv/
+__pycache__/
+*.pyc
+*.py[cod]
+.pytest_cache/
+
+# local data
+*.db
+*.sqlite3
+storage/
+temp_inspect/
+
+# misc
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
